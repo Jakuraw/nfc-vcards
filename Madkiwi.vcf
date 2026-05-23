@@ -1,0 +1,14 @@
+URI:https://madkiwi.net
+
+BEGIN:VCARD
+VERSION:3.0
+N:Kenyi;Diaz;;;
+FN:Kenyi Diaz
+ORG:MadKiwi
+TITLE:Owner
+TEL;TYPE=WORK,VOICE:+12025788202
+EMAIL:contact@madkiwi.com
+URL:https://madkiwi.net
+ADR;TYPE=WORK:;;Palo Alto;CA
+NOTE:Hours Mån-Fre 09:00-17:00
+END:VCARD
