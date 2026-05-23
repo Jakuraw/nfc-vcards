@@ -2,15 +2,70 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mad Kiwi Contact</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background: #7AC943;
+  color: #111;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.small {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #888;
+}
+</style>
 </head>
+
 <body>
+  <div class="card">
+    <h1>Mad Kiwi</h1>
+    <p>Tap the button below to save the contact.</p>
 
-<h2>Mad Kiwi Contact</h2>
+    <a class="button" href="Madkiwi.vcf">
+      Save Contact
+    </a>
 
-<a href="./Madkiwi.vcf">
-Save Contact
-</a>
-
+    <div class="small">NFC Digital Business Card</div>
+  </div>
 </body>
 </html>
